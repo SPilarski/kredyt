@@ -18,8 +18,6 @@ include _ROOT_PATH.'/templates/top.php';
                         <label for="id_p">Oprocentowanie: </label>
                         <input id="id_p" type="text" name="p" value="" style="margin:10px;"/><br />
                         <input type="submit" value="Oblicz" class="btn btn-primary" />
-
-
                     </form>
 
                 </div>
