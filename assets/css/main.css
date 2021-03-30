@@ -336,6 +336,24 @@
 				}
 
 			}
+.reports{
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-align-items: stretch;
+	-webkit-align-items: stretch;
+	-ms-align-items: stretch;
+	align-items: stretch;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
 
 /* Form */
 
@@ -391,9 +409,7 @@
 			border-color: #ff8686;
 			box-shadow: 0 0 0 1px #ff8686;
 		}
-		.reports{
-			align-content: center;
-		}
+
 	.select-wrapper {
 		text-decoration: none;
 		display: block;
@@ -1178,6 +1194,8 @@
 		text-align: center;
 		overflow: hidden;
 	}
+
+
 
 		#banner .inner {
 			text-align: center;
