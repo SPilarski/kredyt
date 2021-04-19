@@ -1,6 +1,6 @@
 {extends file=$conf->root_path|cat:"/templates/main.html"}
 
-{block name=footer}przykładowa tresć stopki wpisana do szablonu głównego z szablonu kalkulatora{/block}
+{block name=footer}{/block}
 
 {block name=content}
 
@@ -10,7 +10,7 @@
             <div class="box">
 
                 <div class="inner">
-                    <form action="{$conf->app_url}/app/calc.php" method="post" style="pure-form">
+                    <form action="{$conf->action_url}calcCompute" method="post" style="pure-form">
                         <label for="id_x" >Kwota: </label>
                         <input id="id_x" type="text" name="x" value="" style="margin:10px;" /><br />
                         <label for="id_y">Ile lat?: </label>

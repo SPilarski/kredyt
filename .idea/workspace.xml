@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eaca8b1-8bb0-42fd-bcb0-92a16e1ee09d" name="Default Changelist" comment="Smarty i obiektowosc">
+      <change afterPath="$PROJECT_DIR$/app/ctrl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/CalcCtrl.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/calc/CalcCtrl.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/CalcForm.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/calc/CalcForm.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/CalcResult.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/calc/CalcResult.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/CalcView.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/calc/CalcView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/calc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +33,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/php_05_obiektowosc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/calc" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\kredyt\app\calc" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -39,6 +52,7 @@
       <workItem from="1616455346846" duration="508000" />
       <workItem from="1617017373399" duration="4817000" />
       <workItem from="1617091406311" duration="5567000" />
+      <workItem from="1618841958888" duration="2128000" />
     </task>
     <task id="LOCAL-00001" summary="lepszy kod">
       <created>1617017534186</created>
@@ -54,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617096897090</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="workspace">
+      <created>1618842004983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618842004983</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lepszy kod" />
     <MESSAGE value="Smarty i obiektowosc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Smarty i obiektowosc" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
 </project>

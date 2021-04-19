@@ -2,8 +2,8 @@
 global $conf;
 require_once $conf->root_path.'/lib/smarty/Smarty.class.php';
 require_once $conf->root_path.'/lib/Messages.class.php';
-require_once $conf->root_path.'/app/CalcForm.class.php';
-require_once $conf->root_path.'/app/CalcResult.class.php';
+require_once $conf->root_path.'/app/calc/CalcForm.class.php';
+require_once $conf->root_path.'/app/calc/CalcResult.class.php';
 
 
 class CalcCtrl {
@@ -70,7 +70,7 @@ class CalcCtrl {
         $smarty->assign('form',$this->form);
         $smarty->assign('res',$this->result);
 
-        $smarty->display($conf->root_path.'/app/CalcView.html');
+        $smarty->display($conf->root_path.'/app/calc/CalcView.html');
 
     }
 
