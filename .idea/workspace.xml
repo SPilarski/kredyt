@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3eaca8b1-8bb0-42fd-bcb0-92a16e1ee09d" name="Default Changelist" comment="lepszy kod">
-      <change afterPath="$PROJECT_DIR$/Config.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/CalcCtrl.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/CalcForm.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/CalcResult.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Messages.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/calc.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/calc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/calc_view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    <list default="true" id="3eaca8b1-8bb0-42fd-bcb0-92a16e1ee09d" name="Default Changelist" comment="Smarty i obiektowosc">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +38,7 @@
       <updated>1616455342012</updated>
       <workItem from="1616455346846" duration="508000" />
       <workItem from="1617017373399" duration="4817000" />
-      <workItem from="1617091406311" duration="5220000" />
+      <workItem from="1617091406311" duration="5567000" />
     </task>
     <task id="LOCAL-00001" summary="lepszy kod">
       <created>1617017534186</created>
@@ -58,7 +47,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617017534186</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Smarty i obiektowosc">
+      <created>1617096897090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617096897090</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +74,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lepszy kod" />
-    <option name="LAST_COMMIT_MESSAGE" value="lepszy kod" />
+    <MESSAGE value="Smarty i obiektowosc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Smarty i obiektowosc" />
   </component>
 </project>
