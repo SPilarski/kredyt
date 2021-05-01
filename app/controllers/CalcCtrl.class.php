@@ -1,10 +1,8 @@
 <?php
 global $conf;
-require_once $conf->root_path.'/lib/smarty/Smarty.class.php';
-require_once $conf->root_path.'/lib/Messages.class.php';
-require_once $conf->root_path.'/app/calc/CalcForm.class.php';
-require_once $conf->root_path.'/app/calc/CalcResult.class.php';
 
+require_once 'CalcForm.class.php';
+require_once 'CalcResult.class.php';
 
 class CalcCtrl {
     private $messages;
@@ -19,7 +17,7 @@ class CalcCtrl {
         $this->result = new CalcResult();
         $this->hide_intro = false;
     }
-    public function getParams(){
+    public function getParams (){
         $this->form->x = isset($_REQUEST ['x']) ? $_REQUEST ['x'] : null;
         $this->form->y = isset($_REQUEST ['y']) ? $_REQUEST ['y'] : null;
         $this->form->p = isset($_REQUEST ['p']) ? $_REQUEST ['p'] : null;
@@ -62,15 +60,13 @@ class CalcCtrl {
     public function generateView(){
         global $conf;
 
-        $smarty = new Smarty();
-        $smarty->assign('conf',$conf);
-        $smarty->assign('hide_intro',$this->hide_intro);
 
-        $smarty->assign('messages',$this->messages);
-        $smarty->assign('form',$this->form);
-        $smarty->assign('res',$this->result);
 
-        $smarty->display($conf->root_path.'/app/calc/CalcView.html');
+        getSmarty()->assign('messages',$this->messages);
+        getSmarty()->assign('form',$this->form);
+        getSmarty()->assign('res',$this->result);
+
+        getSmarty()->display('CalcView.html'); //
 
     }
 

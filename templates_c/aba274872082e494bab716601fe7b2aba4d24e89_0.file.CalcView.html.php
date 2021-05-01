@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-03-30 11:18:33
-  from 'C:\xampp\htdocs\kredyt\app\CalcView.html' */
+/* Smarty version 3.1.39, created on 2021-05-01 18:44:30
+  from 'C:\xampp\htdocs\kredyt\app\views\CalcView.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6062ece94e8699_45665428',
+  'unifunc' => 'content_608d856e8f6315_34254143',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'f4971a2e3fc344876130f9573c28c61cab4e2275' => 
+    'aba274872082e494bab716601fe7b2aba4d24e89' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\kredyt\\app\\CalcView.html',
-      1 => 1617095911,
+      0 => 'C:\\xampp\\htdocs\\kredyt\\app\\views\\CalcView.html',
+      1 => 1619885590,
       2 => 'file',
     ),
   ),
@@ -20,43 +20,40 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6062ece94e8699_45665428 (Smarty_Internal_Template $_smarty_tpl) {
+function content_608d856e8f6315_34254143 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
-
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_629384716062ece94d4682_49797684', 'footer');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2030571869608d856e8e4ce0_79573090', 'footer');
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_5519481916062ece94d5545_27394691', 'content');
-$_smarty_tpl->inheritance->endChild($_smarty_tpl, ($_smarty_tpl->tpl_vars['conf']->value->root_path).("/templates/main.html"));
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_581819949608d856e8e59a1_24042015', 'content');
+$_smarty_tpl->inheritance->endChild($_smarty_tpl, "main.html");
 }
 /* {block 'footer'} */
-class Block_629384716062ece94d4682_49797684 extends Smarty_Internal_Block
+class Block_2030571869608d856e8e4ce0_79573090 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'footer' => 
   array (
-    0 => 'Block_629384716062ece94d4682_49797684',
+    0 => 'Block_2030571869608d856e8e4ce0_79573090',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
-?>
-przykładowa tresć stopki wpisana do szablonu głównego z szablonu kalkulatora<?php
 }
 }
 /* {/block 'footer'} */
 /* {block 'content'} */
-class Block_5519481916062ece94d5545_27394691 extends Smarty_Internal_Block
+class Block_581819949608d856e8e59a1_24042015 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_5519481916062ece94d5545_27394691',
+    0 => 'Block_581819949608d856e8e59a1_24042015',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -69,8 +66,8 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
             <div class="box">
 
                 <div class="inner">
-                    <form action="<?php echo $_smarty_tpl->tpl_vars['conf']->value->app_url;?>
-/app/calc.php" method="post" style="pure-form">
+                    <form action="<?php echo $_smarty_tpl->tpl_vars['conf']->value->action_url;?>
+calcCompute" method="post" style="pure-form">
                         <label for="id_x" >Kwota: </label>
                         <input id="id_x" type="text" name="x" value="" style="margin:10px;" /><br />
                         <label for="id_y">Ile lat?: </label>

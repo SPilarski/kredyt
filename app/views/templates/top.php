@@ -1,4 +1,4 @@
-<?php require_once dirname(__FILE__) .'/../config.php';?>
+<?php require_once dirname(__FILE__) . '/../config.php';?>
 <!DOCTYPE HTML>
 <!--
 	Full Motion by TEMPLATED
