@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3eaca8b1-8bb0-42fd-bcb0-92a16e1ee09d" name="Default Changelist" comment="dodanie ctrl">
-      <change afterPath="$PROJECT_DIR$/core/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
+    <list default="true" id="3eaca8b1-8bb0-42fd-bcb0-92a16e1ee09d" name="Default Changelist" comment="uporządkowanie i zmiany">
+      <change afterPath="$PROJECT_DIR$/core/ClassLoader.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Config.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/calc/CalcCtrl.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CalcCtrl.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/calc/CalcForm.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CalcForm.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/calc/CalcResult.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CalcResult.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/calc/CalcView.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/CalcView.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ctrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/ctrl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Messages.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Messages.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bottom.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/bottom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/top.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/top.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates_c/5f2bd540fe4f47fabc37869ffcd682c8924ef516_0.file.main.html.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates_c/f4971a2e3fc344876130f9573c28c61cab4e2275_0.file.CalcView.html.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/CalcCtrl.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CalcCtrl.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/CalcForm.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms/CalcForm.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/CalcResult.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/transfer/CalcResult.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/security/check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/security/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/security/login_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/security/logout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates_c/23cf1778a18a2312b654a8cc06b4c7c14f67e4d9_0.file.CalcView.html.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates_c/24489b543fb39987aa0d2281b3627fae715d0acd_0.file.main.html.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates_c/595f6575c29201c5e4704344a996169a695b0e76_0.file.CalcView.html.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/CalcView.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/CalcView.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/main.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Config.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Config.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Messages.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Messages.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/ctrl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/8421261b32cfab5c542cdc8e827016e588f154e9_0.file.main.html.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates_c/aba274872082e494bab716601fe7b2aba4d24e89_0.file.CalcView.html.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +49,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\kredyt\app\transfer" />
+      <recent name="C:\xampp\htdocs\kredyt\app\forms" />
       <recent name="C:\xampp\htdocs\kredyt\core" />
       <recent name="C:\xampp\htdocs\kredyt\" />
       <recent name="C:\xampp\htdocs\kredyt\app\views" />
-      <recent name="C:\xampp\htdocs\kredyt\app\controllers" />
-      <recent name="C:\xampp\htdocs\kredyt\app\calc" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +68,9 @@
       <workItem from="1617017373399" duration="4817000" />
       <workItem from="1617091406311" duration="5567000" />
       <workItem from="1618841958888" duration="2791000" />
-      <workItem from="1619882870583" duration="6308000" />
+      <workItem from="1619882870583" duration="7612000" />
+      <workItem from="1619954992572" duration="9291000" />
+      <workItem from="1620059975238" duration="3086000" />
     </task>
     <task id="LOCAL-00001" summary="lepszy kod">
       <created>1617017534186</created>
@@ -95,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618844164441</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="uporządkowanie i zmiany">
+      <created>1619889330415</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619889330415</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +130,7 @@
     <MESSAGE value="Smarty i obiektowosc" />
     <MESSAGE value="workspace" />
     <MESSAGE value="dodanie ctrl" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodanie ctrl" />
+    <MESSAGE value="uporządkowanie i zmiany" />
+    <option name="LAST_COMMIT_MESSAGE" value="uporządkowanie i zmiany" />
   </component>
 </project>

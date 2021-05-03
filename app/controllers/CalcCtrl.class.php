@@ -1,8 +1,12 @@
 <?php
-global $conf;
 
-require_once 'CalcForm.class.php';
-require_once 'CalcResult.class.php';
+
+namespace app\controllers;
+
+global $conf;
+use app\forms\CalcForm;
+use app\transfer\CalcResult;
+use core\Messages;
 
 class CalcCtrl {
     private $messages;
@@ -66,7 +70,7 @@ class CalcCtrl {
         getSmarty()->assign('form',$this->form);
         getSmarty()->assign('res',$this->result);
 
-        getSmarty()->display('CalcView.html'); //
+        getSmarty()->display('CalcView.tpl');
 
     }
 

@@ -1,4 +1,4 @@
-{extends file="main.html"}
+{extends file="main.tpl"}
 {block name=footer}{/block}
 
 {block name=content}

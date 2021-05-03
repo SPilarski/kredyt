@@ -16,9 +16,9 @@ switch ($action) {
         break;
     case 'calcCompute' :
 
-        include_once $conf->root_path.'/app/controllers/CalcCtrl.class.php';
 
-        $ctrl = new CalcCtrl ();
+
+        $ctrl = new app\controllers\CalcCtrl();
         $ctrl->operation();
         break;
     case 'action1' :
