@@ -4,27 +4,16 @@ require_once 'init.php';
 
 
 
-$action = isset($_REQUEST['action']) ? $_REQUEST['action'] : '';
+getConf()->login_action = 'login'; //określenie akcji logowania - robimy to w tym miejscu, ponieważ tu są zdefiniowane wszystkie akcje
 
 switch ($action) {
-    default : // 'calcView'
-
-        include_once $conf->root_path.'/app/controllers/CalcCtrl.class.php';
-
-        $ctrl = new CalcCtrl ();
-        $ctrl->generateView ();
-        break;
+    default :
+        control('app\\controllers', 'CalcCtrl', 'generateView', ['user', 'admin']);
+    case 'login':
+        control('app\\controllers', 'LoginCtrl', 'doLogin');
     case 'calcCompute' :
-
-
-
-        $ctrl = new app\controllers\CalcCtrl();
-        $ctrl->operation();
-        break;
-    case 'action1' :
-
-        break;
-    case 'action2' :
-
-        break;
+        //zamiast pierwszego parametru można podać null lub '' wtedy zostanie przyjęta domyślna przestrzeń nazw dla kontrolerów
+        control(null, 'CalcCtrl', 'process', ['user', 'admin']);
+    case 'logout' :
+        control(null, 'LoginCtrl', 'doLogout', ['user', 'admin']);
 }

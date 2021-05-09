@@ -46,7 +46,7 @@
 </div>
 <footer id="footer">
     <div class="inner">
-        <a href="<?php print(_APP_ROOT); ?>/app/security/logout.php" class="btn btn-primary">Wyloguj</a>
+        <a href="{$conf->action_url}logout"  class="pure-menu-heading pure-menu-link">Wyloguj</a>
 
     </div>
 </footer>
