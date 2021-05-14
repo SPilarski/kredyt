@@ -47,7 +47,7 @@ class CalcCtrl {
 
     }
 
-    public function operation(){
+    public function action_calcCompute(){
         $this->getparams();
 
         if ($this->validate()) {
@@ -58,6 +58,10 @@ class CalcCtrl {
         $this->result->result = $this->form->x + $this->form->x * $this->form->p / (12 * $this->form->y);
         $this->result->result=intval($this->result->result);
         }
+        $this->generateView();
+    }
+    public function action_calcShow(){
+        getMessages()->addInfo('Witaj w kalkulatorze');
         $this->generateView();
     }
 

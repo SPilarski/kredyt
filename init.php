@@ -42,3 +42,15 @@ require_once getConf()->root_path.'/core/functions.php';
 
 $action = getFromRequest('action');
 
+require_once 'core/Router.class.php'; //załaduj i stwórz router
+$router = new core\Router();
+function &getRouter(): core\Router {
+    global $router; return $router;
+}
+
+require_once 'core/functions.php';
+
+session_start(); //uruchom lub kontynuuj sesję
+$conf->roles = isset($_SESSION['_roles']) ? unserialize($_SESSION['_roles']) : array(); //wczytaj role
+
+$router->setAction( getFromRequest('action') );
